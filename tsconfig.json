@@ -1,4 +1,6 @@
 {
+  "include": ["src/**/*"],
+  "exclude": ["test/**/*", "node_modules"],
   "compilerOptions": {
     "composite": true,
     "declaration": true,
@@ -18,6 +20,7 @@
     "preserveSymlinks": true,
     "preserveWatchOutput": true,
     "pretty": false,
+    "outDir": "build/",
     "sourceMap": true,
     "target": "es5"
   }

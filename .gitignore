@@ -1,5 +1,5 @@
 # -*- mode: gitignore; -*-
-
+*.zip
 node_modules/
 build/
 .DS_Store

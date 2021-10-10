@@ -1,0 +1,28 @@
+{
+  "include": ["src/**/*"],
+  "exclude": ["test/**/*", "node_modules"],
+    "compilerOptions": {
+      "composite": true,
+      "declaration": true,
+      "declarationMap": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "lib": ["es2015", "es5", "dom"],
+      "module": "esnext",
+      "moduleResolution": "node",
+      "noEmitOnError": true,
+      "noFallthroughCasesInSwitch": true,
+      "noImplicitAny": true,
+      "noImplicitReturns": true,
+      "importHelpers": true,
+      "downlevelIteration": true,
+      "noUnusedLocals": true,
+      "preserveSymlinks": true,
+      "preserveWatchOutput": true,
+      "outDir": "dist/",
+      "pretty": false,
+      "sourceMap": true,
+      "target": "esnext"
+    }
+  }
