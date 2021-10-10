@@ -1,3 +1,14 @@
-/.idea
-/node_modules
-/build
+# -*- mode: gitignore; -*-
+
+node_modules/
+build/
+.DS_Store
+*.tgz
+*.tar.gz
+*.log
+.coverage/
+coverage/
+.cache/
+dist/
+.vscode
+.idea
